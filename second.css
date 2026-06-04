@@ -1,0 +1,125 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  height: 100vh ;
+  width: 100vw;
+ background: linear-gradient(135deg, #0f4c75 0%, #1b6ca8 30%, #0a9396 60%, #0e7c7b 100%);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ 
+}
+
+
+#card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 85%;
+ height: 70%;
+ background: rgba(255,255,255,0.1);
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
+border: 1px solid rgba(255,255,255,0.2);
+border-radius: 28px;
+position: relative;
+bottom: 5%;
+}
+
+#tick{
+  color: white;
+width: 72px;
+height: 72px;
+border-radius: 50%;
+background: rgba(255, 255, 255, 0.15);
+border: 2px solid rgba(255, 255, 255, 0.3);
+margin: 0 auto 28px;
+ text-align: center;
+  font-size: 2rem;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  animation: popIn 0.5s 0.3s both;
+}
+
+@keyframes popIn {
+  from { opacity: 0; transform: scale(0.5); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+
+#wel{
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(255,255,255,0.7);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  animation: fadeUp 0.6s 1s both;
+}
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+#krishna{
+  font-size: 42px;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: -1px;
+  margin-bottom: 12px;
+  animation: fadeUp 0.6s 1.2s both;
+}
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+
+#p1{
+  font-size: 13px;
+  font-weight: 400;
+  color: rgba(255,255,255,0.55);
+  line-height: 1.6;
+  margin-bottom: 40px;
+  text-align: center;
+  animation: fadeUp 0.6s 1.4s both;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+
+#button {
+  width: 70%;
+  padding: 15px;
+  border-radius: 50px;
+  border: none;
+  background: rgba(255,255,255,0.9);
+  color: #0a7ea4;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  animation: fadeUp 0.6s 1.6s both;
+    transition: transform 0.1s ease;
+}
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+
+#button:active {
+transform: scale(0.97) !important;
+  }
