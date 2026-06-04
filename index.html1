@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>React in Spck</title>
+  <link rel="stylesheet" href="practice.css" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+<div id = "loginp">
+  <p class = "register">
+    Register
+  </p>
+  
+  <p id = "para">Name</p>
+  <input id ="input1" type="type" min ="3">
+  
+  <p id= "para3">Email</p>
+  <input id ="input2" type="email">
+  
+  <p id = "para1">Password</p>
+  <input id ="input3" type="password">
+  <img class="img" src="eye.png">
+  
+  <p id = "para2">Confirm Password</p>
+  <input id ="input4" type="password">
+    <img class="img1" src="eye.png">
+  
+  <button class="btn">Register</button>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+<script src="script.js"></script>
+
+
+</body>
+    </html>
