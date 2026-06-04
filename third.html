@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="third.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+</head>
+
+<body>
+
+  <div id="header">
+    <p class="p1">Resume⁠ ●</p>
+    <p class="p2">🌙 Dark</p>
+  </div>
+
+  <div id="center">
+    <h1 class="heading">Resume Builder</h1>
+    <p class="heading">Fill in your details — we'll handle the rest"  </p>
+  </div>
+
+  <div id="card">
+
+    <p class="personal">• PERSONAL INFO</p>
+
+    <div class="grid-wrap">
+      <p class="resume">Full Name</p>
+      <p class="resume">Phone</p>
+      <input class="r" type="text">
+      <input class="r" type="text">
+
+      <p class="resume">Email</p>
+      <p class="resume">Location</p>
+      <input class="r" type="email">
+      <input class="r" type="text">
+    </div>
+
+    <hr class="divider">
+
+    <p class="personal">• EXPERIENCE</p>
+
+    <div class="grid-wrap">
+      <p class="ex">Job Title</p>
+      <p class="ex">Company</p>
+      <input class="r" type="text">
+      <input class="r" type="text">
+
+      <div class="fullwidth">
+        <p class="ex">What did you do?</p>
+        <textarea class="t" rows="3"></textarea>
+      </div>
+      
+    </div>
+          
+         <hr class="divider">
+         <p class="personal">
+           • EDUCATION
+         </p>
+         
+       <div class = "grid-wrap" >
+         
+      <p class="ex">Degree</p>
+      <p class="ex">Year</p>
+      <input class="r" type="text">
+      <input class="r" type="text">
+         
+         <div class ="fullwidth">
+          <p class="ex">College/University</p>
+          <input class="r" type="text">
+      
+         </div>
+         
+       </div>
+       
+          <hr class="divider">
+         <p class="personal">
+           • SKILLS
+         </p>
+         
+         <div class = "personal">
+           <p class = "ex" >Skills (comma separated)</p>
+                 <input class="r" type="text">
+         </div>
+
+          <div class = "btn">
+            <button class ="submit">Generate Resume</button>
+          </div>
+
+
+
+
+
+  </div>
+
+  <script src="third.js"></script>
+</body>
+
+        </html>
